@@ -1,0 +1,9 @@
+/*----------------------------------
+  Selection
+------------------------------------*/
+
+@include selection($color-white, $color-primary);
+
+.banner-white, .learn-more{
+  color:white!important;
+}
