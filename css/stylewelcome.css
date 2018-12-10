@@ -140,7 +140,7 @@ h2 {
 
 /* Background */
 .background {
-  background: url(../img/images/background.jpg) no-repeat 50% 100%;
+  background: url(../img/images/mn.jpg	) no-repeat 50% 100%;
   bottom: -20px;
   background-size: cover;
   position: absolute;
@@ -172,7 +172,7 @@ h2 {
 	margin: 0 auto;
 	width: 60px;
 	height: 1px;
-	background: #00d9ec;
+	background: #ff6a00;
 	margin-top: 10px;
 }
 
@@ -1035,4 +1035,75 @@ h2 {
 		border-radius: 10px;
 		padding: 25px 45px;
 	}
+}
+
+
+
+.main-content{
+
+}
+.sub-title{
+	line-height: 2.4rem;
+    color: #49260d;
+    font-weight: 600;
+}
+.top-heading{
+	color: #49260d;
+	font-weight: 600;
+	font-size:24px!important;
+}
+.mail{
+	color: #49260d!important;
+    font-weight: 600!important;
+}
+.click-btn{
+	border-radius: 35px;
+    background-color: #ff6a00;
+    color: white;
+    cursor: pointer;
+   padding: 10px 15px 6px;
+    width: 240px;
+	margin: auto;
+	font-weight: 600;
+}
+
+.background:before{
+	/* background: rgba(0, 0, 0, .5); */
+
+}
+.schoolSection{
+	position: absolute;
+	top:100%;
+	width:100%;
+}
+.index-wrapper .click-btn{
+	margin-top: 250px;
+	
+
+}
+@media screen and (max-width:767px){
+	.index-wrapper .click-btn{
+margin-top: 180px;
+margin-bottom: 30px;
+	}
+}
+.ngy2_shadow{
+	background-color: #13b1cd !important;
+}
+
+.loading {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -50px;
+    width: 152px!important;
+    height: 24px;
+}
+
+.progress {
+    display: block;
+    position: absolute;
+	bottom: -13px!important;
 }
